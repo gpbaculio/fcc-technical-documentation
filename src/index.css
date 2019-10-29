@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+._app {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  border-right: solid #d8d8d8 1px;
+}
+
+header {
+  color: black;
+  margin: 12px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.options {
+  border-left: solid #d8d8d8 1px;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+}
+
+.options:hover {
+  cursor: pointer;
+  border-left: solid #333333 1px;
+}
+
+h1 {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+h1::after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  margin-top: .25rem;
+  margin-left: 1rem;
+  background: #d8d8d8;
+}
+
+h2 {
+  line-height: 1.25rem;
+  margin: 2em 0 1em;
+  padding: .5em .75em;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.main-option {
+  background: #f9f9f9;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
 }
