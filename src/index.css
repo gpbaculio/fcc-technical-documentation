@@ -66,3 +66,52 @@ h2 {
   border: 1px solid #d8d8d8;
   border-radius: 3px;
 }
+
+a::after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  width: .5rem;
+  height: .5rem;
+  margin: .125rem 0 0 .125rem;
+  background-size: .5rem .5rem;
+  pointer-events: none;
+  background-image: url('./images/go_to_link.svg');
+}
+
+.copy-to-clipboard {
+  display: none;
+  position: absolute;
+  top: 0;
+  /* position the top  edge of the element at the middle of the parent */
+  right: 0;
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 87.5%;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  /* position the left edge of the element at the middle of the parent */
+
+}
+
+.copy-to-clipboard:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.npm-code,
+.building-code {
+  position: relative;
+}
+
+
+.npm-code pre:hover+.copy-to-clipboard,
+.building-code pre:hover+.copy-to-clipboard,
+.copy-to-clipboard:hover {
+  display: block;
+}
