@@ -22,7 +22,7 @@
 }
 
 .ts-vscode {
-  width: 50%;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -31,7 +31,7 @@
   }
 
   .ts-vscode {
-    width: 100%;
+    width: 50%;
   }
 }
 
