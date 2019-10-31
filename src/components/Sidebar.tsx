@@ -1,18 +1,6 @@
 import React from 'react';
-import {
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarToggler,
-  Navbar,
-  Collapse
-} from 'reactstrap';
-import { useState } from 'react';
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
   return (
     <section className='sidebar'>
       <nav className='p-2'>

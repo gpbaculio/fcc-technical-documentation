@@ -6,7 +6,7 @@ const CopyButton = ({ text }: { text: string }) => {
   const [btn_val, set_value] = useState(init_val);
   const copyToClipboard = () => {
     const textField = document.createElement('textarea');
-    textField.innerText = text;
+    textField.textContent = text;
     document.body.appendChild(textField);
     textField.select();
     document.execCommand('copy');

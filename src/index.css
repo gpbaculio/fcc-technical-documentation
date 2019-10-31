@@ -105,13 +105,38 @@ a::after {
 }
 
 .npm-code,
-.building-code {
+.building-code,
+.compiling-code-1,
+.compiling-code-2,
+.type-annotations-code-1,
+.type-annotations-code-2,
+.interfaces-code,
+.running-code {
   position: relative;
 }
 
-
 .npm-code pre:hover+.copy-to-clipboard,
 .building-code pre:hover+.copy-to-clipboard,
+.compiling-code-1 pre:hover+.copy-to-clipboard,
+.compiling-code-2 pre:hover+.copy-to-clipboard,
+.type-annotations-code-1 pre:hover+.copy-to-clipboard,
+.type-annotations-code-2 pre:hover+.copy-to-clipboard,
+.interfaces-code pre:hover+.copy-to-clipboard,
+.running-code pre:hover+.copy-to-clipboard,
 .copy-to-clipboard:hover {
   display: block;
+}
+
+.attribution a::after {
+  display: none;
+}
+
+.attribution p {
+  margin-bottom: 0;
+}
+
+.attribution {
+  margin-top: 1rem;
+  padding: 1em;
+  background-color: #F4F4F4;
 }
