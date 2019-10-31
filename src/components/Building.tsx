@@ -12,7 +12,7 @@ var user = "Jane User";
   
 document.body.innerHTML = greeter(user);`;
   return (
-    <section id='building'>
+    <section id='building_your_first_typeScript_file'>
       <h2 className='main-option'>Building your first TypeScript file</h2>
       <div className='content'>
         <p>In your editor, type the following JavaScript code in greeter.ts:</p>

@@ -14,7 +14,7 @@ const Running = () => {
   </body>
 </html>`;
   return (
-    <section id='running'>
+    <section id='running_your_typeScript_web_app'>
       <h2 className='main-option'>Running your TypeScript web app</h2>
       <div className='content'>
         <p>

@@ -6,7 +6,7 @@ import CopyToClipBoard from './CopyToClipBoard';
 const InstallingTypescript = () => {
   const installing_typescript_code = 'npm install -g typescript';
   return (
-    <section id='installing-typescript'>
+    <section id='installing_typescript'>
       <h2 className='main-option'>Installing TypeScript</h2>
       <div className='content'>
         <p>There are two main ways to get the TypeScript tools:</p>

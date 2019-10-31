@@ -32,8 +32,24 @@ header {
   font-size: 1rem;
 }
 
+.options a::after {
+  display: none;
+}
+
+.options a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+
 .options:hover {
   cursor: pointer;
+  font-weight: 500;
+  border-left: solid #333333 1px;
+}
+
+.option-active {
+  font-weight: 500;
   border-left: solid #333333 1px;
 }
 
@@ -111,7 +127,8 @@ a::after {
 .type-annotations-code-1,
 .type-annotations-code-2,
 .interfaces-code,
-.running-code {
+.running-code,
+.classes-code {
   position: relative;
 }
 
@@ -122,6 +139,7 @@ a::after {
 .type-annotations-code-1 pre:hover+.copy-to-clipboard,
 .type-annotations-code-2 pre:hover+.copy-to-clipboard,
 .interfaces-code pre:hover+.copy-to-clipboard,
+.classes-code pre:hover+.copy-to-clipboard,
 .running-code pre:hover+.copy-to-clipboard,
 .copy-to-clipboard:hover {
   display: block;

@@ -13,7 +13,7 @@ var user = "Jane User";
   
 document.body.innerHTML = greeter(user);`;
   return (
-    <section id='compiling'>
+    <section id='compiling_your_code'>
       <h2 className='main-option'>Compiling your code</h2>
       <div className='content'>
         <p>

@@ -6,10 +6,11 @@ import TypeAnnotations from './TypeAnnotations';
 import Interfaces from './Interfaces';
 import Running from './Running';
 import Attribution from './Attribution';
+import Classes from './Classes';
 
 const MainContent = () => {
   return (
-    <div className='flex-grow-1 p-3 overflow-auto'>
+    <div className='p-3 overflow-auto'>
       <h1>TypeScript Documentation</h1>
       <div className='content'>
         <p>Get started with a simple TypeScript app.</p>
@@ -23,6 +24,7 @@ const MainContent = () => {
       <Compiling />
       <TypeAnnotations />
       <Interfaces />
+      <Classes />
       <Running />
       <Attribution />
     </div>
