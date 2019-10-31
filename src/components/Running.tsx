@@ -46,7 +46,7 @@ const Running = () => {
           with JavaScript at application scale. For more examples of what’s
           possible in TypeScript, see the Samples section of the website.
         </p>
-        <img width='100%' src={typescript_vscode} alt='' />
+        <img className='ts-vscode' src={typescript_vscode} alt='' />
         <p className='mt-5'>
           Now that you're finished with this easy start, here are some
           considerations why you should use TypeScript according to&nbsp;

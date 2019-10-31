@@ -21,9 +21,17 @@
   width: 100%;
 }
 
+.ts-vscode {
+  width: 50%;
+}
+
 @media (min-width: 768px) {
   .sidebar nav {
     width: 290px;
+  }
+
+  .ts-vscode {
+    width: 100%;
   }
 }
 
