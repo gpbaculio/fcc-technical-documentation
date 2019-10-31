@@ -18,7 +18,13 @@
 }
 
 .sidebar nav {
-  width: 290px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .sidebar nav {
+    width: 290px;
+  }
 }
 
 h2 {
