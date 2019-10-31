@@ -10,7 +10,7 @@ import Classes from './Classes';
 
 const MainContent = () => {
   return (
-    <div className='p-3 overflow-auto'>
+    <main id='main-doc' className='p-3 overflow-auto'>
       <h1>TypeScript Documentation</h1>
       <div className='content'>
         <p>Get started with a simple TypeScript app.</p>
@@ -27,7 +27,7 @@ const MainContent = () => {
       <Classes />
       <Running />
       <Attribution />
-    </div>
+    </main>
   );
 };
 

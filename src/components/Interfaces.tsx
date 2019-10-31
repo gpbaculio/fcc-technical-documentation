@@ -17,8 +17,8 @@ var user = { firstName: "Jane", lastName: "User" };
 
 document.body.innerHTML = greeter(user);`;
   return (
-    <section id='interfaces'>
-      <h2 className='main-option'>Interfaces</h2>
+    <section id='Interfaces' className='main-section'>
+      <header className='main-option'>Interfaces</header>
       <div className='content'>
         <p>
           Let’s develop our sample further. Here we use an interface that

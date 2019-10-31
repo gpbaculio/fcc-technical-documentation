@@ -13,8 +13,8 @@ var user = [0, 1, 2];
 document.body.innerHTML = greeter(user);`;
   const type_annotations_code_2 = `greeter.ts(7,26): Supplied parameters do not match any signature of call target`;
   return (
-    <section id='type_annotations'>
-      <h2 className='main-option'>Type Annotations</h2>
+    <section id='Type_Annotations' className='main-section'>
+      <header className='main-option'>Type Annotations</header>
       <div className='content'>
         <p>
           Type annotations in TypeScript are lightweight ways to record the

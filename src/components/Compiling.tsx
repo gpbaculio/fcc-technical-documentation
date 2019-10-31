@@ -13,8 +13,8 @@ var user = "Jane User";
   
 document.body.innerHTML = greeter(user);`;
   return (
-    <section id='compiling_your_code'>
-      <h2 className='main-option'>Compiling your code</h2>
+    <section id='Compiling_your_code' className='main-section'>
+      <header className='main-option'>Compiling your code</header>
       <div className='content'>
         <p>
           We used a .ts extension, but this code is just JavaScript. You could

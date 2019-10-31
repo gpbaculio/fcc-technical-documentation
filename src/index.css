@@ -17,11 +17,19 @@
   border-right: solid #d8d8d8 1px;
 }
 
-header {
+.sidebar nav {
+  width: 290px;
+}
+
+h2 {
   color: black;
   margin: 12px;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.navbar-header {
+  font-weight: 600;
 }
 
 .options {
@@ -69,7 +77,7 @@ h1::after {
   background: #d8d8d8;
 }
 
-h2 {
+header {
   line-height: 1.25rem;
   margin: 2em 0 1em;
   padding: .5em .75em;

@@ -24,8 +24,8 @@ var user = new Student("Jane", "M.", "User");
 
 document.body.innerHTML = greeter(user);`;
   return (
-    <section id='classes'>
-      <h2 className='main-option'>Classes</h2>
+    <section id='Classes' className='main-section'>
+      <header className='main-option'>Classes</header>
       <div className='content'>
         <p>
           Finally, let’s extend the example one last time with classes.
